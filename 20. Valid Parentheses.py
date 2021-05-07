@@ -15,4 +15,4 @@ class Solution(object):
 
         return not stack
 
-time and space O(n)        
+# time and space O(n)        

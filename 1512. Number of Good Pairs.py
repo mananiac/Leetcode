@@ -12,4 +12,4 @@ class Solution:
         return count   
 
 # time O(n)
-# space O(1)
+# space O(n)

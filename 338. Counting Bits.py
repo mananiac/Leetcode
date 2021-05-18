@@ -1,0 +1,11 @@
+class Solution:
+    def countBits(self, num: int) -> List[int]:
+        counter=[0]
+        for i in range(1,num+1):
+            counter.append( counter[i//2] + i%2 )
+        return counter    
+
+  
+# Time:  O(n)
+# Space: O(n)
+    
